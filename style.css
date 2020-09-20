@@ -8,5 +8,9 @@ html {
     background-color: #fff;
     color: #555;
     font-family: 300;
-    font-size:
+    font-size:20px;
+}
+
+.fill-group{
+    color:#000;
 }
