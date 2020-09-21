@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +8,26 @@
 html {
     background-color: #fff;
     color: #555;
-    font-family: 300;
+    font-family:'Open Sans';
+    font-weight: 300;
     font-size:20px;
 }
 
-.fill-group{
-    color:#000;
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background.jpg);
+    background-size:cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-position: center;
+    height:100vh;  
+    margin:0;  
+}
+
+.fill-group {
+    color: #fff;
+}
+
+body{
+    display: flexbox;
 }
