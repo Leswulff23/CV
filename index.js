@@ -37,3 +37,8 @@ function setErrorFor(input, message) {
     small.innerText = message;
     fillGroup.className = 'fill-group error';
 }
+
+function setSuccessFor(input) {
+    const fillGroup =input.parentElement;
+    fillGroup.className = 'form-control success';
+}
