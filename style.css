@@ -73,6 +73,11 @@ form{
     border-color: #2ecc71;
 }
 
+.fill-group.success i.fa-check-circle{
+    color: #2ecc71; 
+    visibility: visible;
+}
+
 .fill-group.error input{
     border-color: #e74c3c;
 }
@@ -81,12 +86,6 @@ form{
     color: #e74c3c;
     visibility: visible;
 }
-
-.fill-group.success i.fa-check-circle{
-    color: #2ecc71; ;
-    visibility: visible;
-}
-
 
 
 .fill-group select{
@@ -99,6 +98,15 @@ form{
     width: 80%;
 }
 
+
+.fill-group.success select{
+   border-color: #2ecc71; 
+}
+
+.fill-group.success i.fa-check-circle{
+    color: #2ecc71; 
+    visibility: visible;
+}
 
 .fill-group.error select{
     border-color: #e74c3c;
