@@ -6,7 +6,7 @@ const lastname = document.getElementById('lastname');
 const phone = document.getElementById('phone');
 const mail = document.getElementById('mail');
 const postal = document.getElementById('postal');
-
+const gender = document.getElementById('gender');
 form.addEventListener('submit', (e)=> {
     e.preventDefault();
     checkInputs();
@@ -42,6 +42,12 @@ function checkInputs(){
         setTrue(lastname);
     } 
 
+    if (gender.value==='--Choose gender--'){
+        setFasle(gender,'Choose an option');
+    } else {
+        setTrue(gender);
+    }
+
     if(phone_value === '') {
         //show error
         setFasle(phone,'Please fill this field');
@@ -66,8 +72,12 @@ function checkInputs(){
     } else {
         setTrue(postal);
     }
-    
+
+
 }
+
+
+
 
 function setFasle(input, message) {
     const fillGroup =input.parentElement;
@@ -88,4 +98,25 @@ function Validmail(mail){
 
 function ValidPhone(phone){
     return /^[0-9]{10}$/.test(phone);
+}
+
+function ButtonClicked(){
+    document.location.href= "CV.html";
+    var fname = document.getElementById('firstname').value;
+    var mname = document.getElementById('middlename').value;
+    var lname = document.getElementById('lastname').value;
+    var gender = document.getElementById('gender').value;
+    var phone = document.getElementById('phone').value;
+    var email = document.getElementById('mail').value;
+    var postal = document.getElementById('postal').value;
+
+    localStorage.setItem("FName",fname);
+    localStorage.setItem("MName",lname);
+    localStorage.setItem("LName",lname);
+    localStorage.setItem("Gender",gender);
+    localStorage.setItem("Phone",phone);
+    localStorage.setItem("Email",email);
+    localStorage.setItem("Postal",postal);
+
+    return false;
 }

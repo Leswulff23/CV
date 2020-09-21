@@ -15,7 +15,7 @@
             <header>
                 <h2 id="heads">CV Form</h2>
             </header>
-                <form id="form" action="CV.html">
+                <form id="form" action="CV.html" method="POST">
                     <div class="fill-group">
                         <label for="f_name">First Name</label>
                         <input class="firstname" id="firstname" type="text" name="first_name" placeholder="Enter your First Name">
@@ -40,7 +40,7 @@
                     <div class="fill-group">
                         <label for="gender">Gender</label>
                         <select class="gender" id="gender" name="subject" >
-                            <option disabled="disabled" selected="selected">--Choose gender--</option>
+                            <option>--Choose gender--</option>
                             <option>Male</option>
                             <option>Female</option>
                             <option>Other</option>
@@ -70,7 +70,7 @@
                         <i class="fa fa-exclamation-circle"></i>
                         <small>Error Message</small>
                     </div>
-                    <button type="submit"> Submit Form </button>
+                    <button onclick="ButtonClicked()"> Submit Form </button>
                 </form>
         </div>
         
