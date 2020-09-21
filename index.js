@@ -3,7 +3,6 @@ const form = document.getElementById('form');
 const firstname = document.getElementById('firstname');
 const middlename = document.getElementById('middlename');
 const lastname = document.getElementById('lastname');
-const gender = document.getElementById('gender');
 const phone = document.getElementById('phone');
 const mail = document.getElementById('mail');
 const postal = document.getElementById('postal');
@@ -11,14 +10,13 @@ const postal = document.getElementById('postal');
 form.addEventListener('submit', (e)=> {
     e.preventDefault();
     checkInputs();
-    window.location.reload(true);
+    
 });
 
 function checkInputs(){
     const f_name_value= firstname.value.trim();
     const m_name_value= middlename.value.trim();
     const l_name_value= lastname.value.trim();
-    const gender_value= gender.value.trim();
     const phone_value= phone.value.trim();
     const mail_value= mail.value.trim();
     const postal_value= postal.value.trim();
@@ -42,15 +40,8 @@ function checkInputs(){
         setFasle(lastname,'Please fill this field');
     } else {
         setTrue(lastname);
-    }
-//////////////////////////////////////////////////////////////////////////////
-    if(gender_value === '') {
-        //show error
-        setFasle(mail,'Please fill this field');
-    } else {
-        setTrue(mail);
-    }
-///////////////////////////////////////////////////////////////////////////////
+    } 
+
     if(phone_value === '') {
         //show error
         setFasle(phone,'Please fill this field');
@@ -75,6 +66,7 @@ function checkInputs(){
     } else {
         setTrue(postal);
     }
+    
 }
 
 function setFasle(input, message) {

@@ -69,6 +69,11 @@ form{
     margin-bottom: 5px;
 }
 
+.fill-group select option{
+    font-family: inherit;
+    font-size: inherit;
+}
+
 .fill-group.success input{
     border-color: #2ecc71;
 }
