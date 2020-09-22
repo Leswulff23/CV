@@ -12,7 +12,7 @@
 #header {
     display: grid;
     grid-template-columns: 2fr 5fr;
-    background: rgb(32, 32, 32);
+    background: rgb(49, 49, 49);
     color: #fff;
     
     
@@ -44,6 +44,82 @@
     background-color: rgb(156, 154, 154);
     width: 100%;
 }
+
+.row-achievements {
+    padding:10px;
+    background: rgb(49, 49, 49);;
+    border: solid 10px  #cdcdcf;
+    display: block;
+    color: #fff;
+
+}
+
+.row-achievements h4 {
+    margin-left: 20px;
+    background-color: rgb(156, 154, 154);
+    width: 100%;
+}
+
+.row-work-exp {
+    padding:10px;
+    background: #cdcdcf;
+    border: solid 10px  #cdcdcf;
+    display: block;
+
+}
+
+.row-work-exp h4 {
+    margin-left: 20px;
+    background-color: rgb(156, 154, 154);
+    width: 100%;
+}
+
+.row-projects {
+    padding:10px;
+    background: rgb(49, 49, 49);;
+    border: solid 10px  #cdcdcf;
+    display: block;
+    color: #fff;
+
+}
+
+.row-projects h4 {
+    margin-left: 20px;
+    background-color: rgb(156, 154, 154);
+    width: 100%;
+}
+
+.row-co-curricular {
+    padding:10px;
+    background: #cdcdcf;
+    border: solid 10px  #cdcdcf;
+    display: block;
+
+}
+
+.row-co-curricular h4 {
+    margin-left: 20px;
+    background-color: rgb(156, 154, 154);
+    width: 100%;
+}
+
+.row-skills {
+    padding:10px;
+    background: rgb(49, 49, 49);;
+    border: solid 10px  #cdcdcf;
+    display: block;
+    color: #fff;
+
+}
+
+.row-skills h4 {
+    margin-left: 20px;
+    background-color: rgb(156, 154, 154);
+    width: 100%;
+}
+
+
+
 
 .list-education {
     margin-top: 20px;
