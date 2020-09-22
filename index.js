@@ -101,8 +101,6 @@ function ValidPhone(phone){
 }
 
 function ButtonClicked(){
-    
-
 
     document.location.href= "CV.html";
     var fname = document.getElementById('firstname').value;
