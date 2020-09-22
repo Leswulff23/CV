@@ -27,15 +27,16 @@ body {
 }
 
 .heads {
-    background-color: #e9e6e6;
+    background-color: rgb(122, 122, 122);
     border-bottom: 1px solid #f0f0f0;
-    padding:10px 100px;
+    padding:10px 200px;
 
     
 }
 
 .heads h2 {
     margin: 0;
+    font-size: 30px;
 }
 
 .form {
@@ -67,7 +68,7 @@ body {
 }
 
 .fill-group input {
-    border: 2px solid #f0f0f0;
+    border: 2px solid #e9e9e9;
     border-radius: 4px;
     display: block;
     font-family: inherit;
@@ -138,10 +139,6 @@ form button {
 
 .fill-group.error .gender {
     border-color: #e74c3c;
-}
-
-.fill-group button {
-    
 }
 
 form button:hover {
