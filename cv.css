@@ -26,7 +26,7 @@
 
 #underline {
     width: 300px;
-    height: 5px;
+    height: 2px;
     background: #ceced0;
     margin-left: 90%;
 }
@@ -116,17 +116,19 @@
     margin-left: 20px;
     background-color: rgb(156, 154, 154);
     width: 100%;
+    display: block;
 }
 
 
 
-
-.list-education {
+.list-row {
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
  #list {
     margin-left: 40px;
+    : 10px;
 }
 
 #list-right{
