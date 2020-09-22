@@ -22,14 +22,14 @@ body {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    width: 600px;
+    width: 500px;
     max-width: 100%;
 }
 
 .heads {
     background-color: #e9e6e6;
     border-bottom: 1px solid #f0f0f0;
-    padding:20px 40px;
+    padding:10px 100px;
 
     
 }
@@ -101,6 +101,7 @@ form button {
     width: 100%;
     font-size: 16px;
     border-radius: 4px;
+    cursor:pointer;
 }
 
 .fill-group.success input {
@@ -113,18 +114,22 @@ form button {
 
 .fill-group.success i.fa-check-circle {
     color: #2ecc71;
+    visibility: visible;
 }
 
 .fill-group.error i.fa-exclamation-circle {
     color: #e74c3c;
+    visibility: visible;
 }
 
 .fill-group.success .gender i.fa-check-circle {
     color: #2ecc71;
+    visibility: visible;
 }
 
 .fill-group.error .gender i.fa-exclamation-circle {
     color: #e74c3c;
+    visibility: visible;
 }
 
 .fill-group.success .gender {
@@ -133,4 +138,15 @@ form button {
 
 .fill-group.error .gender {
     border-color: #e74c3c;
+}
+
+.fill-group button {
+    
+}
+
+form button:hover {
+    background-color: rgb(80, 80, 80);
+    display: block;
+    width: 100%;
+    border: 10px solid rgb(80, 80, 80);
 }
