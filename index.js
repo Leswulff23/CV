@@ -111,7 +111,7 @@ function ButtonClicked(){
     var postal = document.getElementById('postal').value;
 
     localStorage.setItem("FName",fname);
-    localStorage.setItem("MName",lname);
+    localStorage.setItem("MName",mname);
     localStorage.setItem("LName",lname);
     localStorage.setItem("Gender",gender);
     localStorage.setItem("Phone",phone);

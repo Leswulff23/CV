@@ -10,71 +10,69 @@
         <title>Curriculum Vitae</title>
         <script defer src="index.js"></script>
     </head>
-    <body>
-        <div class="container-group">
-            <header>
-                <h2 id="heads">CV Form</h2>
-            </header>
-                <form id="form" action="CV.html" method="POST">
-                    <div class="fill-group">
-                        <label for="f_name">First Name</label>
-                        <input class="firstname" id="firstname" type="text" name="first_name" placeholder="Enter your First Name">
-                        <i class="fa fa-check-circle"></i>
-                        <i class="fa fa-exclamation-circle"></i>
-                        <small>Error Message</small>
-                    </div>
-                    <div class="fill-group">
-                        <label for="m_name">Middle Name</label>
-                        <input class="middlename" id="middlename" type="text" name="middle_name" placeholder="Enter your Middle Name">
-                        <i class="fa fa-check-circle"></i>
-                        <i class="fa fa-exclamation-circle"></i>
-                        <small>Error Message</small>
-                    </div>
-                    <div class="fill-group">
-                        <label for="l_name">Last Name</label>
-                        <input class="lastname" id="lastname" type="text" name="last_name" placeholder="Enter your Last Name">
-                        <i class="fa fa-check-circle"></i>
-                        <i class="fa fa-exclamation-circle"></i>
-                        <small>Error Message</small>
-                    </div>
-                    <div class="fill-group">
-                        <label for="gender">Gender</label>
-                        <select class="gender" id="gender" name="subject" >
-                            <option>--Choose gender--</option>
-                            <option>Male</option>
-                            <option>Female</option>
-                            <option>Other</option>
-                        </select>
-                        <i class="fa fa-check-circle"></i>
-                        <i class="fa fa-exclamation-circle"></i>
-                        <small>Error Message</small>
-                    </div>
-                    <div class="fill-group">
-                        <label for="Phone">Phone</label>
-                        <input class="phone" id="phone" type="text" name="phone" placeholder="eg.. 0203162832">
-                        <i class="fa fa-check-circle"></i>
-                        <i class="fa fa-exclamation-circle"></i>
-                        <small>Error Message</small>
-                    </div>
-                    <div class="fill-group">
-                        <label for="Email">Email Address</label>
-                        <input class="mail" id="mail" type="text" name="email" placeholder="eg.. hellopeople@example.com">
-                        <i class="fa fa-check-circle"></i>
-                        <i class="fa fa-exclamation-circle"></i>
-                        <small>Error Message</small>
-                    </div>
-                    <div class="fill-group">
-                        <label for="Address">Postal Address</label>
-                        <input class="postal" id="postal" type="text" name="residence" placeholder="Resident Address">
-                        <i class="fa fa-check-circle"></i>
-                        <i class="fa fa-exclamation-circle"></i>
-                        <small>Error Message</small>
-                    </div>
-                    <button onclick="ButtonClicked()"> Submit Form </button>
-                </form>
-        </div>
-        
-    </body>
     
-
+    <body>
+             <form id="form" action="CV.html" method="POST">
+                        <div class="heads">
+                            <h2>CV Form</h2>
+                        </div>
+                        <div class="container-group">
+                            <div class="fill-group">
+                                <label for="f_name">First Name</label>
+                                <input class="firstname" id="firstname" type="text" name="first_name" placeholder="Enter your First Name">
+                                <i class="fa fa-check-circle"></i>
+                                <i class="fa fa-exclamation-circle"></i>
+                                <small>Error Message</small>
+                            </div>
+                            <div class="fill-group">
+                                <label for="m_name">Middle Name</label>
+                                <input class="middlename" id="middlename" type="text" name="middle_name" placeholder="Enter your Middle Name">
+                                <i class="fa fa-check-circle"></i>
+                                <i class="fa fa-exclamation-circle"></i>
+                                <small>Error Message</small>
+                            </div>
+                            <div class="fill-group">
+                                <label for="l_name">Last Name</label>
+                                <input class="lastname" id="lastname" type="text" name="last_name" placeholder="Enter your Last Name">
+                                <i class="fa fa-check-circle"></i>
+                                <i class="fa fa-exclamation-circle"></i>
+                                <small>Error Message</small>
+                            </div>
+                            <div class="fill-group">
+                                <label for="gender">Gender</label>
+                                <select class="gender" id="gender" name="subject" >
+                                    <option>--Choose gender--</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                </select>
+                                <i class="fa fa-check-circle"></i>
+                                <i class="fa fa-exclamation-circle"></i>
+                                <small>Error Message</small>
+                            </div>
+                            <div class="fill-group">
+                                <label for="Phone">Phone</label>
+                                <input class="phone" id="phone" type="text" name="phone" placeholder="eg.. 0203162832">
+                                <i class="fa fa-check-circle"></i>
+                                <i class="fa fa-exclamation-circle"></i>
+                                <small>Error Message</small>
+                            </div>
+                            <div class="fill-group">
+                                <label for="Email">Email Address</label>
+                                <input class="mail" id="mail" type="text" name="email" placeholder="eg.. hellopeople@example.com">
+                                <i class="fa fa-check-circle"></i>
+                                <i class="fa fa-exclamation-circle"></i>
+                                <small>Error Message</small>
+                            </div>
+                            <div class="fill-group">
+                                <label for="Address">Postal Address</label>
+                                <input class="postal" id="postal" type="text" name="residence" placeholder="Resident Address">
+                                <i class="fa fa-check-circle"></i>
+                                <i class="fa fa-exclamation-circle"></i>
+                                <small>Error Message</small>
+                            </div>
+                        </div>
+                    <button onclick="ButtonClicked()"> Submit Form </button>
+                 </form>
+     </body>
 </html>
