@@ -114,26 +114,6 @@ form button {
     border-color: #e74c3c;
 }
 
-.fill-group.success i.fa-check-circle {
-    color: #2ecc71;
-    visibility: visible;
-}
-
-.fill-group.error i.fa-exclamation-circle {
-    color: #e74c3c;
-    visibility: visible;
-}
-
-.fill-group.success .gender i.fa-check-circle {
-    color: #2ecc71;
-    visibility: visible;
-}
-
-.fill-group.error .gender i.fa-exclamation-circle {
-    color: #e74c3c;
-    visibility: visible;
-}
-
 .fill-group.success .gender {
     border-color: #2ecc71;
 }
